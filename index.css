@@ -2,8 +2,10 @@
 * {
     box-sizing: border-box;
 }
+
 img {
     width: 200px;
+    display: block;
 }
 
 .container {
@@ -19,7 +21,7 @@ img {
 }
 
 .header .container {
-    padding: 0 1em;
+    /* padding:0 1rem; */
 }
 
 .header ul {
@@ -33,10 +35,43 @@ img {
 }
 
 /* Section-1 */
+.section-1 .container {
+    display: flex;
+    gap: 2.5em;
+}
 
+.section-1 .container img {
+    margin: 0;
+    padding: 0;
+}
 
+.section-1 .container div {
+    flex: 1 1 50%;
+}
+
+.s1-img {
+    background-color: gray;
+}
 /* Section-2 */
+.section-2 {
+    text-align: center;
+}
 
+.s2-img {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.s2-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    display: flex;
+    gap: 1.25em;
+}
 /* Section-3 */
 
 /* Section-4 */
