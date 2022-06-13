@@ -73,7 +73,40 @@ img {
     gap: 1.25em;
 }
 /* Section-3 */
+.section-3 .container {
+    padding: 0 5em;
+}
 
+.quote {
+    text-align: center;
+} 
+
+.author {
+    text-align: right;
+}
 /* Section-4 */
+.section-4 .container {
+    display: flex;
+    gap: 1em;
+    padding: 0 5em;
+}
+
+.sign-up-btn {
+    margin-left: auto;
+    flex: 1 1 30%;
+}
+
+.sign-up-btn {
+    display: flex;
+}
+
+.sign-up-btn button {
+    display: block;
+    margin: auto auto;
+}
 
 /* Footer */
+
+.footer {
+    text-align: center;
+}
