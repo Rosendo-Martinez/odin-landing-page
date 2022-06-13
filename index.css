@@ -1,0 +1,44 @@
+/* Global */
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 200px;
+}
+
+.container {
+    width: 800px;
+    margin: 1rem auto;
+    border: 1px black solid;
+}
+
+/* Header */
+.header .container, .header ul {
+    display: flex;
+    gap: 1em;
+}
+
+.header .container {
+    padding: 0 1em;
+}
+
+.header ul {
+    padding-left: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+/* Section-1 */
+
+
+/* Section-2 */
+
+/* Section-3 */
+
+/* Section-4 */
+
+/* Footer */
